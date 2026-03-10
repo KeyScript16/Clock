@@ -1,0 +1,19 @@
+body {
+    background-color: #050505; /* Deep black background makes blue pop */
+}
+
+.clock-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.clock {
+    color: #fff;
+    font-family: 'Orbitron', sans-serif; /* A cool 'sci-fi' font */
+    font-size: 60px;
+    letter-spacing: 5px;
+    /* This creates the blue neon glow layers */
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #00d2ff, 0 0 30px #00d2ff, 0 0 40px #00d2ff;
+}
